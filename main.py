@@ -4,7 +4,6 @@ from PIL import Image
 import sudoku
 from colors import *
 
-# ask for a board until there aren't parse errors
 while True:
     # ask for the position of the board on the screen
     clicks = utility.ask_for_positions()
@@ -25,14 +24,12 @@ while True:
         print error("Error parsing the board. I need a new screenshot")
 
 print success("Board taken")
-#print board.to_string()
 print sudoku.print_board(board)
 
 print success("Solving the board")
 solution = sudoku.complete_board(board)
 
 print success("Solution")
-#print solution.to_string()
 print sudoku.print_board(board, solution)
 
 width = clicks[1][0]-clicks[0][0]
