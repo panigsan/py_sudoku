@@ -6,7 +6,7 @@ from time import sleep
 
 clear = lambda: os.system("clear")
 
-# print constant
+# print constants
 table_values = {
 "up_left" : u'\u250F',
 "up_right" : u'\u2513',
