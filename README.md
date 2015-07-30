@@ -12,5 +12,5 @@ Linux:
 
 Mac:
 `brew install tesseract`
-'pip install Pyinput'
-'pip install -U pyobjc'
+`pip install Pyinput`
+`pip install -U pyobjc`
