@@ -11,6 +11,7 @@ Linux:
 `apt-get install tesseract-ocr`
 
 Mac:
+
 `brew install tesseract`
 
 `pip install Pyinput`
